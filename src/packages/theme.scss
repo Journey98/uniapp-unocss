@@ -1,0 +1,40 @@
+// 此文件为hexUI的主题变量，这些变量目前只能通过uni.scss引入才有效，另外由于
+// uni.scss中引入的样式会同时混入到全局样式文件和单独每一个页面的样式中，造成微信程序包太大，
+// 故uni.scss只建议放scss变量名相关样式，其他的样式可以通过main.js或者App.vue引入
+
+$hex-main-color: rgba(0, 9, 28, 0.85);
+$hex-content-color: rgba(0, 9, 28, 0.65);
+$hex-tips-color: #909399;
+$hex-light-color: #c0c4cc;
+$hex-border-color: rgba(0, 9, 28, 0.08);
+$hex-bg-color: #f3f4f6;
+$hex-avatar-color: rgba(255, 255, 255, 0.95);
+
+$hex-type-primary: #196FFF;
+$hex-type-primary-light: #ecf5ff;
+$hex-type-primary-light-bg: #deeafe;
+$hex-type-primary-disabled: #A3C5FF;
+$hex-type-primary-dark: #2e6cd5;
+
+$hex-type-warning: #ff9900;
+$hex-type-warning-disabled: #fcbd71;
+$hex-type-warning-dark: #f29100;
+$hex-type-warning-light: #fdf6ec;
+
+$hex-type-minor: #19be6b;
+$hex-type-minor-disabled: #ffffff;
+$hex-type-minor-dark: #4797ff26;
+$hex-type-minor-light: #dbf1e1;
+
+$hex-type-error: #E13F3F;
+$hex-type-error-disabled: #F39C9C;
+$hex-type-error-dark: #dd6161;
+$hex-type-error-light: #fef0f0;
+
+$hex-type-info: rgba(0, 9, 28, 0.16);
+$hex-type-info-disabled: #f0f1f2;
+$hex-type-info-dark: #c5c6c8;
+$hex-type-info-light: #f4f4f5;
+
+$hex-form-item-height: 70rpx;
+$hex-form-item-border-color: #dcdfe6;
