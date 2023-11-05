@@ -14,4 +14,7 @@ import { test } from '@azhena/uniapp-ui/index';
 
 [插件地址](https://github.com/MellowCo/unocss-preset-weapp/blob/d2f03b3f19b975bbd0ebc5979cbe2adb8044ab24/src/preflights.ts#L14)
 
+
+备注 为什么此插件重新写了 preflights，大概率是因为要处理其他 preset 的初始化样式，比如 unopreset;
+
 [unocss](https://unocss.dev/config/preflights#preflights)
